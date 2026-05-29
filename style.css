@@ -1,1 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+/* Cores inspiradas na natureza e educação */
+:root {
+    --verde: #4CAF50;
+    --amarelo: #FFEB3B;
+    --azul: #2196F3;
+    --branco: #FFFFFF;
+    --cinza: #F2F2F2;
+}
+
+body {
+    background-color: var(--cinza);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--verde);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--branco);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: var(--verde);
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--verde);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+/* Formulário */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--verde);
+    color: var(--branco);
+}
