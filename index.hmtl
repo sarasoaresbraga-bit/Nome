@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho Paraná 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agrinho Paraná 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="sobre">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho Paraná 2026 promove educação, cidadania e sustentabilidade nas escolas. Incentivamos a participação de estudantes e professores em atividades que fortalecem valores sociais e ambientais.</p>
+        <button id="btnSaibaMais">Saiba Mais</button>
+    </section>
+
+    <section id="atividades">
+        <h2>Atividades</h2>
+        <ul>
+            <li>Oficinas de cidadania</li>
+            <li>Plantio de hortas escolares</li>
+            <li>Concurso de redação e desenho</li>
+            <li>Palestras sobre meio ambiente</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agrinho Paraná. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
